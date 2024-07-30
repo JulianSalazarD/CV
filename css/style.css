@@ -4,6 +4,9 @@
 body {
     background-color: #f0f0f0;
     font-family: Cambria, Garamond, Arial, Georgia;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc; 
 }
 
 h2 {
@@ -29,14 +32,18 @@ h1{
 
 #information {
     display: flex;
-    flex-direction:row;
     align-items: center;
     width: 100%;
 }
 
+#information p a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #information p{
     font-weight: bold;
-    margin: 0 3.5%;  
+    margin: 0 3.5%;
 
 }
 
@@ -60,6 +67,6 @@ h1{
     margin: 0;
 }
 #degree p {
-    margin: 0;
+
     font-weight: bold;
 }
