@@ -1,0 +1,39 @@
+/*
+12pt×(96/72)=16px
+*/
+body {
+    background-color: #f0f0f0;
+    font-family: Cambria, Garamond, Arial, Georgia;
+}
+#head p {
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+#information {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width: 100%;
+}
+
+#information p{
+    font-weight: bold;
+    margin: 0 3.5%;  
+
+}
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#skills li {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 5px;
+}
